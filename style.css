@@ -1,0 +1,49 @@
+#screen {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    FONT-WEIGHT: 500;
+    height: 600px;
+    width: 500px;
+    background: aquamarine;
+    margin-top: 100px;
+}
+
+#input {
+    caret-color: transparent;
+    margin: auto;
+    width: 90%;
+    border: 3px solid green;
+    padding: 10px;
+    text-decoration: rgb(243, 241, 241);
+}
+
+#text {
+    
+    margin-left: 30%;
+    margin-top: 10%;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition: filter 0.3s; /* Ensure smooth transition for the filter */
+}
+
+.button:hover {
+    filter: drop-shadow(0 0 10px #e806ce); /* Apply drop-shadow on hover */
+}
+      
+  .row {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  
+  
